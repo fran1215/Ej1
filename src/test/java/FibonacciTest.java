@@ -5,14 +5,15 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
 /**
- * Test cases:
+ * Fibonacci test cases:
  *
- * fibonacci (<0) -> RuntimeException()
- * fibonacci 0 -> @return 0
- * fibonacci 1 -> @return 1
- * fibonacci 2 -> @return 1
- * fibonacci 8 -> @return 21
- * fibonacci 10 -> @return 55
+ *
+ * fibonacci 0       -> @return 0
+ * fibonacci 1       -> @return 1
+ * fibonacci 2       -> @return 1
+ * fibonacci 8       -> @return 21
+ * fibonacci 10      -> @return 55
+ * fibonacci (n < 0) -> RuntimeException()
  *
  */
 
